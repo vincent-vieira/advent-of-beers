@@ -27,16 +27,15 @@ utiliser [3 paramètres de recherche](https://unepetitemousse.fr/blog/ibu-acrony
 
 Pour générer un calendrier de l'Avent, l'utilisateur doit fournir trois variables :
 
-- La teinte des bières souhaitées : claires, normales ou sombres
-  Une bière est considérée comme claire lorsque son EBC est compris entre 1 et 10, normale entre 11 et 17, sombre
-  au-delà de 17
+- La teinte des bières souhaitées : claires, normales ou sombres. **Une bière est considérée comme claire lorsque son EBC est compris entre 1 et 10, normale entre 11 et 17, sombre
+  au-delà de 17**
 
-- L'amertume souhaitée : douce, normale ou amère
-  Une bière est considérée comme douce si son IBU est inférieur à 15, normale entre 15 et 17 et amère au-delà de 17
+- L'amertume souhaitée : douce, normale ou amère. **Une bière est considérée comme douce si son IBU est inférieur à 15,
+  normale entre 15 et 17 et amère au-delà de 17**
 
-- La quantité d'alcool contenue acceptée : sans alcool, peu d'alcool, normal, beaucoup (_trop_) d'alcool
-  Une bière est considérée comme sans alcool si elle a moins d'un ABV inférieur à 1, avec peu d'alcool entre 1 et 5,
-  normale entre 5 et 10 et forte au-delà de 10
+- La quantité d'alcool contenue acceptée : sans alcool, peu d'alcool, normal, beaucoup (_trop_) d'alcool. **Une bière
+  est considérée comme sans alcool si elle a un ABV inférieur à 1, avec peu d'alcool entre 1 et 5,
+  normale entre 5 et 10 et forte au-delà de 10**
 
 Le calendrier de l'Avent sera renvoyée au client sous la forme d'un tableau associatif qui, pour chaque jour du 1er
 Décembre au 24 **inclus**, proposera une bière aléatoire dans le référentiel disponible sur l'API mentionnée
